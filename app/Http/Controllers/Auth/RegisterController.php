@@ -71,5 +71,10 @@ class RegisterController extends Controller
         ]);
     }
 
+    //custom Register form
+    public function showRegistrationForm()
+    {
+        return view('register');
+    }
 
 }
